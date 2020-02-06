@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="sr">
+    <head>
+        <title>The Shape of Data</title>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Data Science Workshop by EESTEC LC Novi Sad"/>
+        <meta name="keywords" content="novi, sad, eestec, workshop, ftn, serbia, it, programming,data, science "/>
+        <meta name="author" content="EESTEC LC Novi Sad"/>
+        <!-- OG protocol -->
+        <meta property="og:title" content="The Shape of Data Workshop"/>
+        <meta property="og:description" content="The Shape of Data - International Data Science Workshop by EESTEC LC Novi Sad"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:url" content="http://workshop.eestecns.org/"/>
+        <meta property="og:image" content="images/logo.png"/>
+        <!-- styles -->
+        <link rel="stylesheet" href="index.css"/>
+        <link rel="stylesheet" href="normalize.css"/>
+        <link rel="shortcut icon" type="image/ico" href="images/Logo.png"/>
+        <link href="https://fonts.googleapis.com/css?family=Ek+Mukta" rel="stylesheet">
+        <!-- responsive styles -->
+        <meta name="viewport" content="width=device-width, initial-scale = 1"/>
+
+        <script src="dist/js/smooth-scroll.js"></script>
+
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+        <script type="text/javascript">
+          $(document).ready(function(){
+            $('iframe').attr('https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FeestecNS%2F&tabs=timeline&width=350&height=350&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId', 'iframe_url');
+          });
+        </script>-->
+
+
+    </head>
+    <body>
+        <div class="container">
+          <!-- NAVIGATION -->
+            <div class="navigation" id="nav">
+                <div class="nav-logo-div">
+                    <a href="http://workshop.eestecns.org/"><img src="images/Logo.png" alt="logo" id="nav-logo"/></a>
+                </div>
+                <nav class="nav-nav">
+                    <ul>
+                        <li><a data-scroll href="#about-workshop">O radionici</a></li>
+                        <li><a data-scroll href="#sponsors-div">Sponzori</a></li>
+                        <li><a data-scroll href="#organisators-div">Organizatori</a></li>
+                        <li><a data-scroll href="#contact-div">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+          <!-- END OF NAVIGATION -->
+          <!-- PAGE HEADER -->
+          <div class="header-background-image">
+            <div class="page-header">
+              <header id="main-header">
+                <h1>THE SHAPE OF DATA</h1>
+                <p><a href="#">Prijave su završene</a></p>
+              </header>
+              <section id="heroes">
+
+                <a href="http://www.eestecns.org" target="_blank"><img src="images/eestec-logo.png" class="header-images subImages" id="eesteclogo"/></a>
+                <!--<img src="images/rhcp-logo.png" class="header-images subImages"/>-->
+              </section>
+            </div>
+          </div>
+          <!-- END OF PAGE HEADER -->
+
+          <!-- ABOUT WORKSHOP -->
+            <div id="about-workshop">
+              <header id="about-workshop-header">
+                <h2>O radionici</h2>
+              </header>
+              <article id="about-workshop-article">
+                <p>Udruženje studenata elektrotehnike Evrope iz Novog Sada (EESTEC LC Novi Sad) ove godine organizuje međunarodni stručni seminar &quot;The Shape of Data&quot;, koji će se održati u periodu od 14. do 21. maja 2017. godine, a na njemu će učestvovati 12 studenata sa uglednijih Univerziteta Evrope kao i 20 studenata sa Univerziteta u Novom Sadu.
+
+Seminar je besplatan i tokom prva četiri dana, koja će biti posvećena akademskom delu, učesnici će imati priliku da sa profesorima novosadskog Univerziteta i mentorima iz vodećih IT kompanija iz Novog Sada i Beograda rade na sticanju novih i usavršavanju već postojećih znanja.
+
+Tema predavanja je Data Science, odnosno nauka o podacima, koja u poslednjih nekoliko godina važi za jednu od najperspektivnijih i najvažnijih IT oblasti.
+
+Seminar nije namenjen isključivo za studente elektrotehnike, stoga ukoliko ste ambiciozni i želite da testirate svoje programerske veštine, ovo je pravo mesto za vas.</p>
+              </article>
+              <div id="about-icons">
+                <div class="icons icon1"/>
+                  <img src="images/Mozgic crn.svg" alt="mozgic"/>
+                  <h3>Data Science</h3>
+                </div>
+                <div class="icons icon2"/>
+                  <img src="images/Kalendar.svg" alt="kalendar"/>
+                  <h3>Od 14. do 22. maja</h3>
+                </div>
+                <div class="icons icon2"/>
+                  <img src="images/Participanti.svg" alt="participanti"/>
+                  <h3>32 učesnika</h3>
+                </div>
+              </div>
+            </div>
+          <!-- END OF ABOUT -->
+          <!-- SPONSORS START -->
+          <div id="sponsors-wrapper">
+          <div id="sponsors-div">
+            <header id="sponsors-header">
+              <h2>Sponzori</h2>
+            </header>
+            <!--<div class="sponsors main-sponsor">
+                <h3>Generali sponzor</h3>
+                <div id="main-sponsor-image-div">
+                      <div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <img src="images/kiwi.svg" alt="main sponsor" class="main-sponsor-image sponsors-images"/>
+                </div>
+            </div>-->
+            <div class="sponsors pokrovitelji">
+                <h3>Pokrovitelji</h3>
+                <div id="pokrovitelji-images">
+                  <div class="pokrovitelji-image-div">
+                        <div class="text">
+                          <p><strong>SmartCat</strong> je usko specijalizovana firma koja pruza usluge konsultacija i implementacije za <strong>Big Data sisteme</strong> (od arhitekture, modela podataka i algoritama pa do optimizacije performansi produkcionih okruzenja distrbuiranih sistema) a svoje usluge nudimo na globalnom nivou sa fokusom na SAD i EU trzista. Nasa misija je da impresioniramo svoje saradnike i klijente sa nivoom tehnickog znanja i profesionalizmom a interno, ulaganje u razvoj nasih strucnjaka do globalnog nivoa kredibiliteta je najviseg prioriteta.<br /><a href="https://www.smartcat.io/" target="_blank">Saznajte više</a></p>
+                        </div>
+                      <!--<img src="images/sponsors/SmartCat.png" alt="SmartCat" class="pokrovitelji-images sponsors-images"/>-->
+                  </div>
+                  <div class="pokrovitelji-image-div">
+                        <div class="text">
+                          <p><strong>Schneider Electric DMS NS</strong> je specijalizovana IT kompanija iz Novog Sada koja se bavi istraživanjem, razvojem i softverskim inženjeringom u oblasti elektroenergetike - Smart Grid IT, a posebno u oblasti upravljanja elektrodistributivnim sistemima.
+Naš glavni originalni proizvod <strong>ADMS softver</strong> (Advance Distribution Management System) je instaliran u preko 80 elektroprivreda širom sveta, 170 kontrolna centra sa ukupno 400 miliona električnih potrošača.
+ADMS softver predstavlja tehničko-informacioni sistem koji omogućava kompletan uvid u tehničke podatke elektrodistributivne mreže, analizu rada mreže, primenu ekspertskih metoda za unapređenje rada sistema, kao i upravljanje i planiranje u elektrodistributivnom sistemu. Osnovna svrha ADMS softvera jeste da se korišćenjem vrhunskog ekspertskog znanja iz oblasti energetike i softverskog inžinjeringa, na najracionalniji način, iskoriste svi raspoloživi elektroenergetski kapaciteti u električnim distributivnim sistemima, sa posebnim naglaskom na obnovljive izvore energije, i na taj način ostvare milionske uštede i spreči prekomerno zagađivanje životne sredine.
+ADMS softver je prema mišljenju vodeće konsultantske kuće Gartner, SAD, već sedmu godinu zaredom proglašen najboljim rešenjem u Smart Grid IT oblasti, što nas svrstava u red najperspektivnijih i najvećih kompanija u oblasti razvoja softverskih rešenja, kako u zemlji, tako i u regionu. U februaru 2012. francuska mega kompanija Schneider Electric je proglasila Novi Sad za svoj glavni kompetitivni razvojni centar za Smart Grid IT tehnologije.
+Schneider Electric DMS NS u ovom momentu najveća IT kompanija u Srbiji sa blizu 1000 zaposlenih vrhunskih stručnjaka koji rade na razvoju i uspešnoj isporuci blizu 40 novih velikih svetskih projekata širom sveta za klijente koji svakodnevno, uspešno koriste ovaj srpski proizvod za optimizaciju rada svojih električnih distributivnih mreža.
+Uz veliki broj visokoobrazovanih mladih, stručnih i motivisanih zaposlenih, želimo da obezbedimo S​mart Grid IT/OT transformaciju elektroprivrednih sistema koristeći našu tehnologiju, ekspertizu i iskustvo u oblasti elektroenergetike i značajno unapredimo rad i funkcionisanje kompanija kao i krajnjih potrošača. Naša vizija je da budemo sinonim za kompaniju koja stalno postavlja nove više svetske IT/OT standarde kako u oblasti rešenja, tako i u oblasti rada i funkcionisanja i koja, ne samo da uvodi nove navike i trendove, nego ih i predviđa i kreira.
+</p>
+                          <p><a href="http://www.schneider-electric-dms.com/" target="_blank">Saznajte više</a></p>
+                        </div>
+                      <!--<img src="images/sponsors/SmartCat.png" alt="SmartCat" class="pokrovitelji-images sponsors-images"/>-->
+                  </div>
+              </div>
+            </div>
+            <div class="sponsors goods-sponsor">
+              <h3>Robni sponzori</h3>
+              <div id="goods-images">
+                <div class="goods-sponsor-image-div">
+                  <a href="http://www.fructus.rs/" target="_blank">
+                    <img src="images/sponsors/fructus_logo.png" alt="goods sponsor" class="goods-sponsor-image sponsors-images"/>
+                  </a>
+                </div>
+                <div class="goods-sponsor-image-div">
+                  <a href="http://kabinet.rs/" target="_blank">
+                    <img src="images/sponsors/kabinet.jpg" alt="goods sponsor" class="goods-sponsor-image sponsors-images"/>
+                  </a>
+                </div>
+                <div class="goods-sponsor-image-div">
+                  <a href="http://aquaviva.rs/" target="_blank">
+                    <img src="images/sponsors/aqua-viva.png" alt="goods sponsor" class="goods-sponsor-image sponsors-images"/>
+                  </a>
+                </div>
+                <div class="goods-sponsor-image-div">
+                  <a href="http://www.grandkafa.com/sr/" target="_blank">
+                    <img src="images/sponsors/grand.png" alt="goods sponsor" class="goods-sponsor-image sponsors-images"/>
+                  </a>
+                </div>
+                <div class="goods-sponsor-image-div">
+                  <a href="http://rs.coca-colahellenic.com/en/" target="_blank">
+                    <img src="images/sponsors/Hellenic.png" alt="goods sponsor" class="goods-sponsor-image sponsors-images"/>
+                  </a>
+                </div>
+                <div class="goods-sponsor-image-div">
+                  <a href="http://www.famoso.rs/" target="_blank">
+                    <img src="images/sponsors/famoso.png" alt="goods sponsor" class="goods-sponsor-image sponsors-images"/>
+                  </a>
+                </div>
+                <div class="goods-sponsor-image-div">
+                  <a href="http://indexhouse.rs/?lang=en" target="_blank">
+                    <img src="images/sponsors/IndexHouse.png" alt="goods sponsor" class="goods-sponsor-image sponsors-images"/>
+                  </a>
+                </div>
+                <div class="goods-sponsor-image-div">
+                  <a href="http://www.macval.rs/html/macval%20tea.html" target="_blank">
+                    <img src="images/sponsors/macval-tea.png" alt="goods sponsor" class="goods-sponsor-image sponsors-images"/>
+                  </a>
+                </div>
+                <div class="goods-sponsor-image-div">
+                  <a href="http://www.stark.rs/" target="_blank">
+                    <img src="images/sponsors/stark.png" alt="goods sponsor" class="goods-sponsor-image sponsors-images"/>
+                  </a>
+                </div>
+                <div class="goods-sponsor-image-div">
+                  <a href="http://zlatiborac.com/welcome/" target="_blank">
+                    <img src="images/sponsors/zlatiborac.png" alt="goods sponsor" class="goods-sponsor-image sponsors-images"/>
+                  </a>
+                </div>
+                <div class="goods-sponsor-image-div">
+                  <a href="http://pekara-milan.rs/" target="_blank">
+                    <img src="images/sponsors/milan.png" alt="goods sponsor" class="goods-sponsor-image sponsors-images"/>
+                  </a>
+                </div>
+                <div class="goods-sponsor-image-div">
+                  <a href="http://www.mioni.rs/index.php?lang=en" target="_blank">
+                    <img src="images/sponsors/gala.png" alt="goods sponsor" class="goods-sponsor-image sponsors-images"/>
+                  </a>
+                </div>
+                <div class="goods-sponsor-image-div">
+                  <a href="http://www.pekaravioletaisoni.com/kontakt.html" target="_blank">
+                    <img src="images/sponsors/Violeta i Soni.png" alt="goods sponsor" class="goods-sponsor-image sponsors-images"/>
+                  </a>
+                </div>
+                <div class="goods-sponsor-image-div">
+                  <a href="http://www.neoplanta.rs/en" target="_blank">
+                    <img src="images/sponsors/neoplanta.png" alt="goods sponsor" class="goods-sponsor-image sponsors-images"/>
+                  </a>
+                </div>
+                <div class="goods-sponsor-image-div">
+                  <a href="http://www.rekalibracija.rs/" target="_blank">
+                    <img src="images/sponsors/VeganRaw.png" alt="goods sponsor" class="goods-sponsor-image sponsors-images"/>
+                  </a>
+                </div>
+                <div class="goods-sponsor-image-div">
+                  <a href="http://zona-adrenalina.rs/" target="_blank">
+                    <img src="images/sponsors/zona.png" alt="goods sponsor" class="goods-sponsor-image sponsors-images"/>
+                  </a>
+                </div>
+                <div class="goods-sponsor-image-div">
+                  <a href="https://www.facebook.com/BanjaluckiCevapNoviSad/" target="_blank">
+                    <img src="images/sponsors/cevap.png" alt="goods sponsor" class="goods-sponsor-image sponsors-images"/>
+                  </a>
+                </div>
+            </div>
+            </div>
+            <div class="sponsors partners">
+              <h2>Partneri</h2>
+              <div class="media-partners">
+
+                <div class="sponsors main-sponsor">
+                    <h3>Generalni medijski partner</h3>
+                    <div id="main-sponsor-image-div">
+                      <a href="http://www.kanal9tv.com/" target="_blank">
+                        <img src="images/sponsors/kanal9.png" alt="media sponsor" class="main-sponsor-image sponsors-images"/>
+                      </a>
+                    </div>
+                </div>
+                <h3>Medijski partneri</h3>
+
+                <div id="media-images">
+                  <div class="media-sponsor-image-div">
+                    <a href="http://bif.rs/" target="_blank">
+                      <img src="images/sponsors/bif_logo.png" alt="media partner" class="media-sponsor-image sponsors-images"/>
+                    </a>
+                    <!--<div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>-->
+                  </div>
+                  <div class="media-sponsor-image-div">
+                    <a href="http://www.studentskizivot.com/" target="_blank">
+                      <img src="images/sponsors/cmyk_logo.png" alt="media partner" class="media-sponsor-image sponsors-images"/>
+                    </a>
+                    <!--<div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>-->
+                  </div>
+                  <div class="media-sponsor-image-div">
+                    <a href="https://www.helloworld.rs/" target="_blank">
+                      <img src="images/sponsors/hello_world_logo.png" alt="media partner" class="media-sponsor-image sponsors-images"/>
+                    </a>
+                    <!--<div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>-->
+                  </div>
+                  <div class="media-sponsor-image-div">
+                    <a href="https://ilovenovisad.com/" target="_blank">
+                      <img src="images/sponsors/ilovens.png" alt="media partner" class="media-sponsor-image sponsors-images"/>
+                    </a>
+                    <!--<div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>-->
+                  </div>
+                  <div class="media-sponsor-image-div">
+                    <a href="http://www.rtvsg.rs/" target="_blank">
+                      <img src="images/sponsors/logo_sg.png" alt="media partner" class="media-sponsor-image sponsors-images"/>
+                    </a>
+                    <!--<div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>-->
+                  </div>
+                  <div class="media-sponsor-image-div">
+                    <a href="http://www.poslovi.rs/" target="_blank">
+                      <img src="images/sponsors/poslovi4.png" alt="media partner" class="media-sponsor-image sponsors-images"/>
+                    </a>
+                    <!--<div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>-->
+                  </div>
+                  <div class="media-sponsor-image-div">
+                    <a href="http://studentivrsac.org/" target="_blank">
+                      <img src="images/sponsors/us_vrsac_logo.png" alt="media partner" class="media-sponsor-image sponsors-images"/>
+                    </a>
+                    <!--<div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>-->
+                  </div>
+                  <div class="media-sponsor-image-div">
+                    <a href="http://sntv.rs/" target="_blank">
+                      <img src="images/sponsors/sntv.png" alt="media partner" class="media-sponsor-image sponsors-images"/>
+                    </a>
+                    <!--<div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>-->
+                  </div>
+                  <div class="media-sponsor-image-div">
+                    <a href="http://portalmladi.com/" target="_blank">
+                      <img src="images/sponsors/LOGO2.png" alt="media partner" class="media-sponsor-image sponsors-images"/>
+                    </a>
+                    <!--<div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>-->
+                  </div>
+                  <div class="media-sponsor-image-div">
+                    <a href="http://beta.rs/" target="_blank">
+                      <img src="images/sponsors/beta3.png" alt="media partner" class="media-sponsor-image sponsors-images"/>
+                    </a>
+                  </div>
+                  <div class="media-sponsor-image-div">
+                    <a href="http://www.vesti-online.com/" target="_blank">
+                      <img src="images/sponsors/Vesti.png" alt="media partner" class="media-sponsor-image sponsors-images"/>
+                    </a>
+                    <!--<div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>-->
+                  </div>
+                  <div class="media-sponsor-image-div">
+                    <a href="http://www.infostud.com/" target="_blank">
+                      <img src="images/sponsors/poslovi_logo.png" alt="media partner" class="media-sponsor-image sponsors-images"/>
+                    </a>
+                    <!--<div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>-->
+                  </div>
+                  <div class="media-sponsor-image-div">
+                    <a href="http://oradio.rs/" target="_blank">
+                      <img src="images/sponsors/oradio.png" alt="media partner" class="media-sponsor-image sponsors-images"/>
+                    </a>
+                    <!--<div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>-->
+                  </div>
+                  <div class="media-sponsor-image-div">
+                    <a href="http://www.play-zine.com/" target="_blank">
+                      <img src="images/sponsors/play_zine.png" alt="media partner" class="media-sponsor-image sponsors-images"/>
+                    </a>
+                    <!--<div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>-->
+                  </div>
+                  <div class="media-sponsor-image-div">
+                    <a href="http://www.columbo.rs/" target="_blank">
+                      <img src="images/sponsors/columbo.png" alt="media partner" class="media-sponsor-image sponsors-images"/>
+                    </a>
+                    <!--<div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>-->
+                  </div>
+                  <div class="media-sponsor-image-div">
+                    <a href="http://www.mojnovisad.com/" target="_blank">
+                      <img src="images/sponsors/mojnovisad_logo.png" alt="media partner" class="media-sponsor-image sponsors-images"/>
+                    </a>
+                    <!--<div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>-->
+                  </div>
+                  <div class="media-sponsor-image-div">
+                    <a href="https://www.radiodelta.rs/" target="_blank">
+                      <img src="images/sponsors/delta.png" alt="media partner" class="media-sponsor-image sponsors-images"/>
+                    </a>
+                    <!--<div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>-->
+                  </div>
+                  <div class="media-sponsor-image-div">
+                    <a href="http://www.podovi.org/" target="_blank">
+                      <img src="images/sponsors/podovi.png" alt="media partner" class="media-sponsor-image sponsors-images"/>
+                    </a>
+                  </div>
+                  <div class="media-sponsor-image-div">
+                    <a href="http://www.ogledalo.rs/" target="_blank">
+                      <img src="images/sponsors/internetogledalo.png" alt="media partner" class="media-sponsor-image sponsors-images"/>
+                    </a>
+                  </div>
+
+                  <div class="media-sponsor-image-div">
+                    <a href="http://www.radiobravo.net/" target="_blank">
+                      <img src="images/sponsors/bravo.png" alt="media partner" class="media-sponsor-image sponsors-images"/>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!--<div class="academic-partners">
+                <h3>Akademski partneri</h3>
+                <div id="academic-images">
+                  <div class="academic-image-div">
+                    <img src="images/sponsors/startit.png" alt="academic sponsor" class="academic-sponsor-image sponsors-images"/>
+                  </div>
+                  <div class="academic-image-div">
+                    <div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <img src="images/kiwi.svg" alt="main sponsor" class="academic-sponsor-image sponsors-images"/>
+                  </div>
+                  <div class="academic-image-div">
+                    <div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <img src="images/kiwi.svg" alt="main sponsor" class="academic-sponsor-image sponsors-images"/>
+                  </div>
+                </div>
+              </div>-->
+              <div class="other-partners">
+                <h3>Ostali partneri</h3>
+                <div id="other-images">
+                  <div class="other-image-div">
+                    <a href="https://startit.rs/" target="_blank">
+                      <img src="images/sponsors/startit.png" alt="other sponsor" class="other-image sponsors-images" />
+                    </a>
+                  </div>
+                  <div class="other-image-div">
+                    <a href="http://novisad.travel/" target="_blank">
+                      <img src="images/sponsors/tons-beli.png" alt="other sponsor" class="other-image sponsors-images" />
+                    </a>
+                  </div>
+                  <!--<div class="other-image-div">
+                    <div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <img src="images/kiwi.svg" alt="main sponsor" class="other-sponsor-image sponsors-images"/>
+                  </div>
+                  <div class="other-image-div">
+                    <div class="text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    -<img src="images/kiwi.svg" alt="main sponsor" class="other-sponsor-image sponsors-images"/>
+                  </div>-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <!--SPONSORS END-->
+
+          <!-- ORGANIZERS START -->
+          <div id="organisators-div">
+            <article id="about-eestec">
+              <header id="about-eestec-header">
+                <h2>O nama</h2>
+                <img src="images/eestec-logo.png" alt="eestec logo" class="eestec-image"/>
+              </header>
+              <section id="eestec-text">
+                <p>EESTEC je neprofitno, nepolitičko udruženje studenata koje ima za cilj da poveže studente elektrotehnike i računarstva širom Evrope kroz organizovanje međunarodnih seminara, razmena i stručnih praksi. Cilj udruženja je i povezivanje i upoznavanje studenata sa razvojem industrije i modernim trendovima u struci. Udruženje je osnovano 1986. godine u Holandiji i trenutno se sastoji od 54 lokalna komiteta (Local Committee – LC) u 28 država širom Evrope.
+                   Šireći domen svojih delatnosti, EESTEC LC Novi Sad u poslednjh pet godina postao je veoma aktivan na lokalnom nivou. Uz odličnu saradnju sa kompanijama i Fakultetom tehničkih nauka, organizovana su tri velika takmičenja u programiranju, prezentacije i seminari za lokalne studente i Sajam poslovnih mogućnosti i stručnih praksi KONTEH koji je po jedanaesti put održan u martu 2017. godine.</p>
+                <p>Ako želite da saznate više o nama&comma; posetite nas na ovoj <a href="http://www.eestecns.org/" target="_blank">lokaciji</a>.</p>
+            </section>
+            </article>
+            <div class="coordinators">
+              <header id="coordinators-header">
+                <h2>Upoznajte koordinatore radionice</h2>
+              </header>
+              <div class="coordinators1">
+              <div class="coordinator frcoordinator">
+                  <img src="images/koordinatori/bosko.jpg"/>
+                  <div class="coordinator-info">
+                    <h4>Boško Jovanović</h4>
+                    <h4>Koordinator za odnose sa kompanijama</h4>
+                    <h4>bosko.jovanovic.bnbn@gmail.com</h4>
+                  </div>
+              </div>
+              <div class="coordinator prcoordinator">
+                  <img src="images/koordinatori/sara.jpg"/>
+                  <div class="coordinator-info">
+                    <h4>Sara Pajčin</h4>
+                    <h4>Koordinator za odnose sa medijima</h4>
+                    <h4>spajcin8@gmail.com</h4>
+                  </div>
+              </div>
+              <div class="coordinator hdcoordinator">
+                <div class="coordinator-wrapper">
+                  <img src="images/koordinatori/kristian.jpg" id="kiki"/>
+                </div>
+                  <div class="coordinator-info">
+                    <h4>Kristian Monar</h4>
+                    <h4>Glavni koordinator</h4>
+                    <h4>kristianmonar@gmail.com</h4>
+                  </div>
+              </div>
+              <div class="coordinator acacoordinator">
+                  <img src="images/koordinatori/smilja.jpg"/>
+                  <div class="coordinator-info">
+                    <h4>Smilja Stokanović</h4>
+                    <h4>Koordinator za akademski sadržaj</h4>
+                    <h4>smiljastokanovic@gmail.com</h4>
+                  </div>
+              </div>
+              <div class="coordinator rbcoordinator">
+                    <img src="images/koordinatori/luka.jpg"/>
+                  <div class="coordinator-info">
+                    <h4>Luka Stanojković</h4>
+                    <h4>Koordinator za robna sponzorstva</h4>
+                    <h4>lukastanojkovic@gmail.com</h4>
+                  </div>
+              </div>
+            </div>
+            <div class="coordinators2">
+              <div class="coordinator frcoordinator">
+                  <img src="images/koordinatori/tijana.jpg"/>
+                  <div class="coordinator-info">
+                    <h4>Tijana Stanojković</h4>
+                    <h4>Koordinator za aktivnosti</h4>
+                    <h4>s.tijana79@gmail.com</h4>
+                  </div>
+              </div>
+              <div class="coordinator frcoordinator">
+                  <img src="images/koordinatori/mihajlo.jpg"/>
+                  <div class="coordinator-info">
+                    <h4>Mihajlo Džever</h4>
+                    <h4>Koordinator za logistiku</h4>
+                    <h4>mihajlo.mihajlo.dzever@gmail.com</h4>
+                  </div>
+              </div>
+              <div class="coordinator frcoordinator">
+                  <img src="images/koordinatori/katarina.jpg"/>
+                  <div class="coordinator-info">
+                    <h4>Katarina Mijatović</h4>
+                    <h4>Koordinator za publikacije</h4>
+                    <h4>kmijatovic96@gmail.com</h4>
+                  </div>
+              </div>
+              <div class="coordinator frcoordinator">
+                  <img src="images/koordinatori/medic.jpg"/>
+                  <div class="coordinator-info">
+                    <h4>Milan Medić</h4>
+                    <h4>Koordinator za IT</h4>
+                    <h4>mmedic596@gmail.com</h4>
+                  </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        <!-- ORGANIZERS END -->
+
+        <!--CONTACT START-->
+          <div id="contact-div">
+
+            <adress class="info">
+              <h2>Kontakt informacije</h2>
+              <div class="information-part address">
+                <div class="contact-icon">
+                  <img src="images/location.svg" alt="marker" class="contact-icons"/>
+                </div>
+                <h3>Trg Dositeja Obradovića 6<br />
+                    Fakultet tehničkih nauka,
+                    Novi Sad 21000</h3>
+              </div>
+              <div class="information-part mail">
+                <div class="contact-icon">
+                  <img src="images/mail.svg" alt="marker" class="contact-icons"/>
+                </div>
+                <h3>workshop.eestecns@gmail.com</h3>
+              </div>
+              <div class="information-part tel">
+                <div class="contact-icon">
+                  <img src="images/phone.svg" alt="marker" class="contact-icons"/>
+                </div>
+                <h3>+381 (0)64 438 2453</h3>
+              </div>
+            </adress>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FeestecNS%2F&tabs=timeline&width=350&height=350&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="350" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            <!--<div id="map" style="width: 300px; height: 300px;"></div>
+            <script type="text/javascript">
+              $(function() {
+                $("#map").googleMap();
+                $("#map").addMarker({
+                  coords: [48.895651, 2.290569], // GPS coords
+                  title: 'Tamooo dalekooo', // Title
+                });
+              })
+            </script>-->
+          </div>
+        <!--CONTACT END-->
+        </div>
+        <script>
+        	smoothScroll.init();
+        </script>
+    </body>
+</html>
